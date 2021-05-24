@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=KoHo:wght@300;500&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right top , #3498db, #2882be);
+  height: 100vh;
+  margin: 0;
+  font-family: 'KoHo';
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  height: 320px;
+  width: 300px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px #23618a;
+  padding: 10px;
+}
+
+input{
+    border: none;
+    outline: none;
+    font-family: "KoHo"
+}

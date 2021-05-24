@@ -1,10 +1,10 @@
-import './App.css';
+import './styles/App.css';
+import NumberBox from './components/NumberBox';
 
 function App() {
   return (
     <div className="App">
-     
-       Hi i'm chin !
+      <NumberBox/>
     </div>
   );
 }
